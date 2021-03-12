@@ -7,8 +7,6 @@ import {Avatar} from '@material-ui/core';
 const Home = () => {
     return (
         <div className='home'>
-            <h1>Hello googles</h1>
-
             <div className='home__headers'>
                 <div className='home__headersLeft'>
                     <Link to='/about'>About</Link>
@@ -23,7 +21,9 @@ const Home = () => {
             </div>
 
             <div className='home__body'>
-                
+                <img 
+                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt=""></img>
             </div>
         </div>
     );
